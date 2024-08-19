@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'surah names';
+    src: url('../../public/fonts/chapters/sura_names.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bismeallah';
+    src: url('../../public/fonts/chapters/p1.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.suraname {
+    font-family: 'surah names';  
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word {
+    line-height: 1.75;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.bismeallah {
+    font-family: 'bismeallah';
+    line-height: 1.5;
+    font-size: 2.6rem;
+    color: rgb(0, 0, 0);
+}
+
+.word:hover{
+    background-color: #e7f2ff49;
+    cursor: pointer;
+    color: #2ca4ab;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
